@@ -1,0 +1,57 @@
+html, body {
+  font-family: 'Roboto';
+  height: 100%;
+}
+
+#navbar {
+  background-color: #f8f8f8;
+  color: #777777;
+}
+
+#nav-name {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.md-button.md-default-theme.nav-button {
+  color: #777777;
+  height:100%;
+  border-radius: 0;
+  min-width:80px;
+}
+
+.md-button.md-default-theme.nav-button span {
+  border-bottom: 1px dotted #777777;
+}
+
+/* START ACTIVE STATES*/
+.activehome {
+  background: #95A5A6 !important;
+}
+.activeabout {
+  background-color: #52B3D9 !important;
+}
+
+.activelabs {
+  background: #2ecc71 !important;
+}
+.activecontact {
+  background: #e74c3c !important;
+}
+.activehome span, .activeabout span, .activelabs span, .activecontact span {
+  color: #ffffff;
+  border-bottom: 1px dotted #ffffff !important;
+}
+
+.navbarabout {
+  border-radius: 0;
+  border-bottom: 8px solid #52B3D9;
+}
+.navbarlabs {
+  border-radius: 0;
+  border-bottom: 8px solid #2ecc71;
+}
+.navbarcontact{
+  border-radius: 0;
+  border-bottom: 8px solid #e74c3c;
+}
