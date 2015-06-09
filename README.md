@@ -1,3 +1,3 @@
-# R3VL MD UI
+# cdurth.com MD
 
-re-write of r3vl front end app using material design
+re-write of cdurth.com front end app using material design
