@@ -3,7 +3,7 @@ angular
   .config(function($stateProvider, $urlRouterProvider,$mdThemingProvider, $mdIconProvider){
     $stateProvider
       .state('home', {
-        url: '/',
+        url: '/main',
         templateUrl: 'app/main/main.html',
         controller: 'mainCtrl'
       })
@@ -21,7 +21,7 @@ angular
     });
         
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/main');
 
 
     $mdIconProvider

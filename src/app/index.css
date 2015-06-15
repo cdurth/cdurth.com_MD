@@ -7,6 +7,17 @@ html, body {
   padding: 0px;
 }
 
+#main-wrapper span {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block; 
+}
+div h1 {
+    margin: 0;        
+    vertical-align: middle;
+    display: inline-block; 
+}
+
 /* Sidenav area */
 
 md-list .md-button {
@@ -26,8 +37,11 @@ md-list .md-button {
 
 /* Primary content area */
 
-#content-wrap md-content{
+#content-wrap {
   margin: 0 auto;
+}
+
+#content-wrap md-content{
   background: transparent;
 }
 

@@ -55,6 +55,10 @@ html, body {
   border-bottom: 1px dotted #ffffff !important;
 }
 
+.navbarhide {
+  display: none;
+}
+
 .navbarabout {
   border-radius: 0;
   border-bottom: 8px solid #52B3D9;

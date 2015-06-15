@@ -7,3 +7,13 @@
 #content md-dialog .md-actions {
 	padding:8px;
 }
+.main-box {
+	background: red;
+	width: 200px;
+	height: 200px;
+}
+#main-wrapper {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
