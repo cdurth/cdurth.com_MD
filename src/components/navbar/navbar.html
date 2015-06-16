@@ -7,7 +7,7 @@ class="md-toolbar-tools">
     <span id="nav-name">Corey J. Durthaler</span>
   </h2>
   <section flex offset-gt-sm="80" id="nav-buttons" layout="row" layout-align="start center" hide-sm>
-    <md-button class="nav-button"><span>Home</span></md-button>
+    <md-button class="nav-button" ui-sref="home"><span>Home</span></md-button>
     <md-button class="nav-button" ng-class="{ activeabout: isActive('/about')}" ui-sref="about"><span>About Me</span></md-button>
     <md-button class="nav-button" ng-class="{ activelabs: isActive('/labs')}" ui-sref="labs"><span>Labs</span></md-button>
     <md-button class="nav-button" ng-class="{ activecontact: isActive('/contact')}" ui-sref="contact"><span>Contact</span></md-button>

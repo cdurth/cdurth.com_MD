@@ -15,23 +15,23 @@
   function menuItems($q){
     var items = [
       {
-        name: 'Join a Party!',
-        avatar: 'vinyl',
-        route: 'join'
+        name: 'Home',
+        avatar: 'home',
+        route: 'home'
       },
       {
-        name: 'Create a Party!',
-        avatar: 'party',
-        route: 'create'
-      },
-      {
-        name: 'About',
-        avatar: 'question',
+        name: 'About Me',
+        avatar: 'about',
         route: 'about'
       },
       {
-        name: 'Contact Us',
-        avatar: 'email',
+        name: 'Labs',
+        avatar: 'labs',
+        route: 'labs'
+      },
+      {
+        name: 'Contact',
+        avatar: 'contact',
         route: 'contact'
       }
     ];

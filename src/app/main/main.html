@@ -1,6 +1,38 @@
 <div id="main-wrapper" layout="row" layout-sm="column" layout-margin layout-fill layout-padding layout-align="center center">
-    <div class="main-box">Box 1</div>
-    <div class="main-box">Box 2</div>
-    <div class="main-box">Box 3</div>
-    <div class="main-box">Box 4</div>
+  <div layout="row" layout-sm="column">
+    <div id="main-name" hide-gt-md layout="column">
+      <h1>Corey Durthaler</h1>
+    </div>
+    <div class="main-box activehome" hide-md hide-sm>Box 1</div>
+    <div class="main-box activeabout">
+      <a ui-sref="about" href="#/about">
+          <div class="carre_couleur base_hov">
+            <div class="retract"><img src="./assets/img/about-white.png" class="img-responsive"></div>
+            <div class="acced">
+              <div class="big_acced" >ABOUT ME</div>
+            </div>
+          </div>
+       </a>
+    </div>
+    <div class="main-box activelabs">
+      <a ui-sref="labs">
+    <div class="carre_couleur base_hov">
+      <div class="retract"><img src="./assets/img/labs-white.png" class="img-responsive"></div>
+      <div class="acced">
+        <div class="big_acced">LABS</div>
+      </div>
+    </div>
+  </a>
+    </div>
+    <div class="main-box activecontact">
+      <a ui-sref="contact">
+      <div class="carre_couleur base_hov">
+        <div class="retract"><img src="./assets/img/contact-white.png" class="img-responsive"></div>
+        <div class="acced">
+          <div class="big_acced">CONTACT</div>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
 </div>
