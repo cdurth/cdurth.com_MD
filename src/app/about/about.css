@@ -1,36 +1,36 @@
-#about  {
+#about,#labs  {
 	max-width: 960px;
 	margin: 0 auto;
-	padding-top: 64px;
 }
+
 #about h2 {
 	text-transform: uppercase;
 	color: #52B3D9;
 	border-bottom: 2px solid #52B3D9;
 }
-#about h3 {
+#about h3, #labs h3 {
 	margin: 0;
 }
-#about p {
+#about p, #labs p {
 	line-height: 1;
 }
-#about md-dialog {
+#about md-dialog, #labs md-dialog {
 	margin:0;
 	max-width: 99%;
 	border-radius: 1px;
 }
-#about md-dialog md-content {
+#about md-dialog md-content, #labs md-dialog md-content {
 	padding:10px;
 }
-#about md-dialog .md-actions {
+#about md-dialog .md-actions, #labs md-dialog .md-actions {
 	padding:8px;
 }
-#about [flex] {
+#about [flex], #labs [flex] {
 	margin: 2px 0;
 }
 .description {
 	background-color: #eee;
-	margin-left: 1%;
+	/*margin-left: 1%;*/
 	margin-bottom: 10px;
 	padding: 10px;
 }

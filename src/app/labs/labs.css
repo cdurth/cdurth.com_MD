@@ -1,0 +1,17 @@
+#labs h2 {
+	text-transform: uppercase;
+	color: #2ecc71;
+	border-bottom: 2px solid #2ecc71;
+}
+
+#labs .img-wrap {
+	padding-bottom: 2em;
+}
+
+#labs img {
+	border: 1px dotted #777777;
+}
+
+.extended-title {
+	font-size: 70%;
+}

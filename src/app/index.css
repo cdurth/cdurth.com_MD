@@ -6,6 +6,9 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
+.spacing-crutch {
+  padding-top: 64px;
+}
 
 #main-wrapper span {
     height: 100%;
@@ -36,6 +39,7 @@ md-list .md-button {
 
 
 /* Primary content area */
+
 
 #content-wrap {
   margin: 0 auto;
@@ -123,4 +127,10 @@ span.name {
   font-weight: bold;
   font-size:1.1em;
   padding-left:5px;
+}
+
+.img-responsive {
+  max-width:100% !important;
+  height:auto;
+  display:block;
 }

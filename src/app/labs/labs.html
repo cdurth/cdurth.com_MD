@@ -1,3 +1,19 @@
-<div ng-repeat="post in posts">
-	{{post.title}}
+<div class="spacing-crutch"></div>
+<div id="labs" layout="row" layout-sm="column" layout-margin ng-repeat="post in posts">
+	<div flex class="about-section">
+		<md-dialog class="md-default-theme transition-in" role="dialog">
+			<md-content>
+				<h2><i class="{{post.icon}}"></i> {{post.title}} - <span class="extended-title">{{post.extTitle}}</span></h2>
+				<div class="img-wrap">
+					<img src="{{post.image}}" alt="" class="img-responsive">
+				</div>
+	            <div class="description">
+					<h3>INFO:</h3>
+              		<p>{{post.description}}</p>
+				  	<h3>LINK:</h3>
+					<p><a href="{{post.url}}" target="_blank">{{post.url}}</a></p>
+	            </div>
+			</md-content>
+		</md-dialog>
+	</div>
 </div>
