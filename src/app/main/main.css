@@ -13,11 +13,6 @@
 	transform: translateY(-50%);
 }
 
-#main-name {
-  padding-bottom: 5%;
-  color: white;
-}
-
 .main-box {
   width:200px;
   height: 200px;
@@ -92,4 +87,9 @@
   font-size:15px;
   font-weight: 400;
   font-family:'Roboto';
+}
+
+#headshot {
+  margin: 30px 50px 50px 50px;
+  border: 5px solid white;
 }

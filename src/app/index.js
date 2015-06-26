@@ -14,6 +14,7 @@ angular
     .state('labs', {
     url: '/labs',
     templateUrl: 'app/labs/labs.html',
+    controller: 'labsCtrl'
   })
     .state('contact', {
     url: '/contact',
